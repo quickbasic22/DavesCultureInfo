@@ -1,0 +1,55 @@
+﻿public string[] AbbreviatedDayNames { get; set; }
+        public string[] AbbreviatedMonthGenitiveNames { get; set; }
+        public string[] AbbreviatedMonthNames { get; set; }
+        public string AMDesignator { get; set; }
+        public Calendar DCalendar { get; set; }
+        public CalendarWeekRule CalendarWeekRule { get; set; }
+        public string DateSeparator { get; set; }
+        public string[] DayNames { get; set; }
+        public DayOfWeek FirstDayOfWeek { get; set; }
+        public string FullDateTimePattern { get; set; }
+        public bool IsDReadOnly { get; set; }
+        public string LongDatePattern { get; set; }
+        public string LongTimePattern { get; set; }
+        public string MonthDayPattern { get; set; }
+        public string[] MonthGenitiveNames { get; set; }
+        public string[] MonthNames { get; set; }
+        public string NativeCalendarName { get; set; }
+        public string PMDesignator { get; set; }
+        public string RFC1123Pattern { get; set; }
+        public string ShortDatePattern { get; set; }
+        public string[] ShortestDayNames { get; set; }
+        public string ShortTimePatterns { get; set; }
+        public string SortableDateTimePattern { get; set; }
+        public string TimeSeparator { get; set; }
+        public string UniversalSortableDateTimePattern { get; set; }
+        public string YearMonthPattern { get; set; }
+
+
+
+		private string[] abbreviateddaynames;
+        private string[] abbreviatedmonthgenitivenames;
+        private string[] abbreviatedmonthnames;
+        private string amdesignator;
+        private Calendar calendar;
+        private CalendarWeekRule calendarweekrule;
+        private string dateseparator;
+        private string[] daynames;
+        private DayOfWeek firstdayOfweek;
+        private string fulldatetimepattern;
+        private bool isreadonly;
+        private string longdatepattern;
+        private string longtimepattern;
+        private string monthdaypattern;
+        private string[] monthgenitivenames;
+        private string[] monthnames;
+        private string nativecalendarname;
+        private string pmdesignator;
+        private string rfc1123pattern;
+        private string shortdatepattern;
+        private string[] shortestdaynames;
+        private string shorttimepatterns;
+        private string sortabledatetimepattern;
+        private string timeseparator;
+        private string universalsortabledatetimepattern;
+        private string yearmonthpattern;
